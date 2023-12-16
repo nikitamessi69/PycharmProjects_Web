@@ -1,0 +1,17 @@
+2023-12-16 17:52:40 INFO ====== WebDriver manager ======
+2023-12-16 17:52:41 INFO Get LATEST chromedriver version for google-chrome
+2023-12-16 17:52:41 INFO Get LATEST chromedriver version for google-chrome
+2023-12-16 17:52:42 INFO Driver [/home/gb/.wdm/drivers/chromedriver/linux64/120.0.6099.71/chromedriver-linux64/chromedriver] found in cache
+2023-12-16 17:52:57 INFO Test2 starting
+2023-12-16 17:52:59 INFO send igorkrut777 to element //*[@id="login"]/div[1]/label/input
+2023-12-16 17:53:00 INFO send c79f4a3a6f to element //*[@id="login"]/div[2]/label/input
+2023-12-16 17:53:00 INFO Click logging button
+2023-12-16 17:53:02 INFO We find text Blog in error field //*[@id="app"]/main/div/div[1]/h1
+2023-12-16 17:53:02 INFO Test create post start
+2023-12-16 17:53:03 INFO Click create post button
+2023-12-16 17:53:05 INFO Send Let Everything to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-12-16 17:53:06 INFO Send Will be Alright to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-12-16 17:53:06 INFO Send All the Time to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-12-16 17:53:06 INFO Click save post button
+2023-12-16 17:53:08 INFO We find text Let Everything in title save field //*[@id="app"]/main/div/div[1]/h1
+2023-12-16 17:53:08 INFO Test contact us start
