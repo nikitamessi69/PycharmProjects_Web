@@ -1,0 +1,69 @@
+2023-12-18 16:05:40 INFO ====== WebDriver manager ======
+2023-12-18 16:05:41 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 16:05:42 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 16:05:42 INFO Driver [/home/gb/.wdm/drivers/chromedriver/linux64/120.0.6099.71/chromedriver-linux64/chromedriver] found in cache
+2023-12-18 16:05:45 INFO Test1 starting
+2023-12-18 16:06:01 INFO Test2 starting
+2023-12-18 16:06:08 INFO Test2 starting
+2023-12-18 16:06:19 ERROR Find element exception
+Traceback (most recent call last):
+  File "/home/gb/PycharmProjects_Web/auto_test_web/sem_4/BaseApp.py", line 14, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+  File "/home/gb/PycharmProjects_Web/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can not find element by locator ('xpath', '//*[@id="login"]/div[1]/label/input') 
+Stacktrace:
+#0 0x55e9635c9d33 <unknown>
+#1 0x55e963286f87 <unknown>
+#2 0x55e9632d6c0e <unknown>
+#3 0x55e9632d6d11 <unknown>
+#4 0x55e963322004 <unknown>
+#5 0x55e96330036d <unknown>
+#6 0x55e96331f297 <unknown>
+#7 0x55e9633000e3 <unknown>
+#8 0x55e9632c8044 <unknown>
+#9 0x55e9632c944e <unknown>
+#10 0x55e96358e861 <unknown>
+#11 0x55e963592785 <unknown>
+#12 0x55e96357c285 <unknown>
+#13 0x55e96359341f <unknown>
+#14 0x55e96356020f <unknown>
+#15 0x55e9635b7028 <unknown>
+#16 0x55e9635b71f7 <unknown>
+#17 0x55e9635c8ed4 <unknown>
+#18 0x7f5f2dc94ac3 <unknown>
+
+2023-12-18 16:06:19 ERROR Element ('xpath', '//*[@id="login"]/div[1]/label/input') not found
+2023-12-18 16:06:29 ERROR Find element exception
+Traceback (most recent call last):
+  File "/home/gb/PycharmProjects_Web/auto_test_web/sem_4/BaseApp.py", line 14, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+  File "/home/gb/PycharmProjects_Web/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can not find element by locator ('xpath', '//*[@id="login"]/div[2]/label/input') 
+Stacktrace:
+#0 0x55e9635c9d33 <unknown>
+#1 0x55e963286f87 <unknown>
+#2 0x55e9632d6c0e <unknown>
+#3 0x55e9632d6d11 <unknown>
+#4 0x55e963322004 <unknown>
+#5 0x55e96330036d <unknown>
+#6 0x55e96331f297 <unknown>
+#7 0x55e9633000e3 <unknown>
+#8 0x55e9632c8044 <unknown>
+#9 0x55e9632c944e <unknown>
+#10 0x55e96358e861 <unknown>
+#11 0x55e963592785 <unknown>
+#12 0x55e96357c285 <unknown>
+#13 0x55e96359341f <unknown>
+#14 0x55e96356020f <unknown>
+#15 0x55e9635b7028 <unknown>
+#16 0x55e9635b71f7 <unknown>
+#17 0x55e9635c8ed4 <unknown>
+#18 0x7f5f2dc94ac3 <unknown>
+
+2023-12-18 16:06:29 ERROR Element ('xpath', '//*[@id="login"]/div[2]/label/input') not found
+2023-12-18 16:06:31 INFO Test create post start
+2023-12-18 16:06:39 INFO Test4 starting
+2023-12-18 16:06:43 INFO Get alert text
+2023-12-18 16:06:43 INFO Form successfully submitted

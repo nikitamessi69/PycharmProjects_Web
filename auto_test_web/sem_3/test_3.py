@@ -55,4 +55,5 @@ def test_create_post(browser):
     testpage.click_save_post_button()
     time.sleep(testdata["sleep_time"])
     assert testpage.title_save() == "Let Everything"
+
     testpage.test_contact_us()
